@@ -1,5 +1,8 @@
-REM Lock the screen before starting, this appears to not lock first and reopen
+REM lock and unlock your screen
+DELAY 1000
+GUI L
+DELAY 1000
 ENTER
-DELAY 200
-STRING mysecretwindowspassword
+DELAY 500
+STRING mysecretphrase
 ENTER
