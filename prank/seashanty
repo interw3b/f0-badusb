@@ -1,0 +1,23 @@
+REM script to teach a password lesson :3
+DELAY 500
+GUI r
+DELAY 350
+STRING powershell.exe -windowstyle hidden
+DELAY 350
+ENTER
+DELAY 350
+STRING Start-Process https://twitter.com/racheltobac/status/1352409636792492035
+ENTER
+CAPSLOCK
+DELAY 1500
+CAPSLOCK
+DELAY 1500
+CAPSLOCK
+DELAY 1500
+CAPSLOCK
+DELAY 20000
+GUI L
+DELAY 300
+ENTER
+ENTER
+ENTER
