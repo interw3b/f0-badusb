@@ -1,4 +1,4 @@
-# Bad USB Payloads
+# BadUSB Payloads
 
 These are based on the available scripts and edited for use cases.
 
